@@ -492,7 +492,7 @@ namespace RNFS
             }
             catch (Exception ex)
             {
-                promise.Reject(ex, "getFSInfo is not available");
+                promise.Reject(null, "getFSInfo is not available");
             }
         }
 
